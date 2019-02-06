@@ -8,20 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		A7E73B5F2209B75B003EF81D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E73B5E2209B75B003EF81D /* AppDelegate.swift */; };
-		A7E73B612209B75B003EF81D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E73B602209B75B003EF81D /* ViewController.swift */; };
 		A7E73B642209B75B003EF81D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7E73B622209B75B003EF81D /* Main.storyboard */; };
 		A7E73B662209B75E003EF81D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7E73B652209B75E003EF81D /* Assets.xcassets */; };
 		A7E73B692209B75E003EF81D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7E73B672209B75E003EF81D /* LaunchScreen.storyboard */; };
+		A7E73B722209B7BF003EF81D /* quotes.json in Resources */ = {isa = PBXBuildFile; fileRef = A7E73B702209B7BF003EF81D /* quotes.json */; };
+		A7E73B732209B7BF003EF81D /* Savoye LET.ttc in Resources */ = {isa = PBXBuildFile; fileRef = A7E73B712209B7BF003EF81D /* Savoye LET.ttc */; };
+		A7E73B762209C1C3003EF81D /* QuotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E73B752209C1C3003EF81D /* QuotesViewController.swift */; };
+		A7E73B782209C1CB003EF81D /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E73B772209C1CB003EF81D /* SettingsViewController.swift */; };
+		A7E73B7D2209C523003EF81D /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E73B7C2209C523003EF81D /* Quote.swift */; };
+		A7E73B7F2209C545003EF81D /* QuotesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E73B7E2209C545003EF81D /* QuotesManager.swift */; };
+		A7E73B812209C56E003EF81D /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E73B802209C56E003EF81D /* Configuration.swift */; };
+		A7ECCB37220B0D7700D157FD /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A7ECCB36220B0D7600D157FD /* Settings.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A7E73B5B2209B75B003EF81D /* AppPensamentos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppPensamentos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7E73B5E2209B75B003EF81D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A7E73B602209B75B003EF81D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A7E73B632209B75B003EF81D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A7E73B652209B75E003EF81D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A7E73B682209B75E003EF81D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A7E73B6A2209B75E003EF81D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7E73B702209B7BF003EF81D /* quotes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = quotes.json; sourceTree = "<group>"; };
+		A7E73B712209B7BF003EF81D /* Savoye LET.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Savoye LET.ttc"; sourceTree = "<group>"; };
+		A7E73B752209C1C3003EF81D /* QuotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesViewController.swift; sourceTree = "<group>"; };
+		A7E73B772209C1CB003EF81D /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		A7E73B7C2209C523003EF81D /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
+		A7E73B7E2209C545003EF81D /* QuotesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesManager.swift; sourceTree = "<group>"; };
+		A7E73B802209C56E003EF81D /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
+		A7ECCB36220B0D7600D157FD /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,13 +69,52 @@
 			isa = PBXGroup;
 			children = (
 				A7E73B5E2209B75B003EF81D /* AppDelegate.swift */,
-				A7E73B602209B75B003EF81D /* ViewController.swift */,
-				A7E73B622209B75B003EF81D /* Main.storyboard */,
+				A7E73B742209B7CA003EF81D /* FIles */,
+				A7E73B792209C1EA003EF81D /* Controllers */,
+				A7E73B7A2209C1F5003EF81D /* Views */,
+				A7E73B7B2209C512003EF81D /* Models */,
 				A7E73B652209B75E003EF81D /* Assets.xcassets */,
-				A7E73B672209B75E003EF81D /* LaunchScreen.storyboard */,
 				A7E73B6A2209B75E003EF81D /* Info.plist */,
+				A7ECCB36220B0D7600D157FD /* Settings.bundle */,
 			);
 			path = AppPensamentos;
+			sourceTree = "<group>";
+		};
+		A7E73B742209B7CA003EF81D /* FIles */ = {
+			isa = PBXGroup;
+			children = (
+				A7E73B702209B7BF003EF81D /* quotes.json */,
+				A7E73B712209B7BF003EF81D /* Savoye LET.ttc */,
+			);
+			path = FIles;
+			sourceTree = "<group>";
+		};
+		A7E73B792209C1EA003EF81D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A7E73B752209C1C3003EF81D /* QuotesViewController.swift */,
+				A7E73B772209C1CB003EF81D /* SettingsViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A7E73B7A2209C1F5003EF81D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A7E73B622209B75B003EF81D /* Main.storyboard */,
+				A7E73B672209B75E003EF81D /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A7E73B7B2209C512003EF81D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A7E73B7C2209C523003EF81D /* Quote.swift */,
+				A7E73B7E2209C545003EF81D /* QuotesManager.swift */,
+				A7E73B802209C56E003EF81D /* Configuration.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,8 +175,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7E73B722209B7BF003EF81D /* quotes.json in Resources */,
 				A7E73B692209B75E003EF81D /* LaunchScreen.storyboard in Resources */,
 				A7E73B662209B75E003EF81D /* Assets.xcassets in Resources */,
+				A7E73B732209B7BF003EF81D /* Savoye LET.ttc in Resources */,
+				A7ECCB37220B0D7700D157FD /* Settings.bundle in Resources */,
 				A7E73B642209B75B003EF81D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,8 +191,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A7E73B612209B75B003EF81D /* ViewController.swift in Sources */,
+				A7E73B812209C56E003EF81D /* Configuration.swift in Sources */,
+				A7E73B7F2209C545003EF81D /* QuotesManager.swift in Sources */,
+				A7E73B7D2209C523003EF81D /* Quote.swift in Sources */,
+				A7E73B762209C1C3003EF81D /* QuotesViewController.swift in Sources */,
 				A7E73B5F2209B75B003EF81D /* AppDelegate.swift in Sources */,
+				A7E73B782209C1CB003EF81D /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,7 +352,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.lorena.AppPensamentos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -310,7 +370,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.lorena.AppPensamentos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
